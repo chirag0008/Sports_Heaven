@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sports Heaven</title>
+    <link rel="shortcut icon" href="img/logo.ico" />
+    <meta charset="utf-8" />
+    <link href='https://fonts.googleapis.com/css?family=Advent+Pro:300,700' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+  </head>
+  <body>
+   
+    <!-- HEADER SECTION SPORTS HEAVEN  -->
+    <header style="background-color: white; box-shadow: 0 1px 4px rgba(0, 0, 0, .1);">
+      <div class="container" style="padding-top: 8px;padding-bottom: 8px;">
+       <div class="grid grid-two">
+         <h1>  <a href="index.html"><img src="img/Logo.png" alt="logo" style="height: 64px ;" />  SPORTS HEAVEN</h1>
+        </div>
+       <div class="grid grid-two" style="padding-top: 24px; text-align: right;">
+    <span><a href="mycart.html">My Cart</a></span>
+       </div>
+      </div>
+     </header>
+  
+  
+  
+     <!-- NAV BAR  -->
+     <main class="container">
+      <nav id="product-nav" class="full">
+       <li><a href="index.html">Home</a></li>
+       <li><a href="products.html">Products</a></li>
+       <li><a href="about.html">About</a></li>
+       <li><a href="contact.html">Contact</a></li>
+       <li style="float: right"><a href="login.html">Login</a></li>
+        <li style="float: right"><a href="register.html">Register</a></li>
+      </nav>
+
+
+
+
+    <div class="full">
+     <div class="grid grid-three">
+     <h1 class="text-blue">Cricket</h1>
+      <section class="box product">
+       <h2>Cricket Bat</h2>
+       <img src="img/product/cricket/1.jpg" />
+       <p>Premium quality bat</p>
+      </section>
+      <section class="box product">
+       <h2>Cricket ball</h2>
+       <img src="img/product/cricket/2.jpg" />
+       <p> Leather balls</p>
+      </section>
+      <section class="box product">
+       <h2>Cricket Helmet</h2>
+       <img src="img/product/cricket/3.jpg" />
+       <p> Super helmet</p>
+      </section>
+      <section class="box product">
+       <h2>Cricket Gloves</h2>
+       <img src="img/product/cricket/4.jpg" />
+       <p>Leather gloves</p>
+      </section>
+      <section class="box product">
+       <h2>Cricket Pads</h2>
+       <img src="img/product/cricket/5.jpg" />
+       <p> High resistable pads</p>
+      </section>
+     </div>
+
+
+
+     <div class="grid grid-three">
+     <h1 class="text-blue">HOCKEY</h1>
+      <section class="box product">
+       <h2>Hockey stick</h2>
+       <img src="img/product/hockey/1.jpg" />
+       <p>best quality ever </p>
+      </section>
+      <section class="box product">
+       <h2>Hockey kit </h2>
+       <img src="img/product/hockey/2.jpg" />
+       <p>specialized space</p>
+      </section>
+      <section class="box product">
+       <h2>Hockey safety </h2>
+       <img src="img/product/hockey/3.jpg" />
+       <p>best safety ever</p>
+      </section>
+      <section class="box product">
+       <h2>Hockey helmet</h2>
+       <img src="img/product/hockey/4.jpg" />
+       <p>best safety ever </p>
+      </section>
+      <section class="box product">
+       <h2>Hockey pads </h2>
+       <img src="img/product/hockey/5.jpg" />
+       <p>premium quality </p>
+      </section>
+     </div>
+
+
+
+
+
+     <div class="grid grid-three">
+     <h1 class="text-blue">SOCCER</h1>
+      <section class="box product">
+       <h2>Football </h2>
+       <img src="img/product/soccer/1.jpg" />
+       <p>inflated football </p>
+      </section>
+      <section class="box product">
+       <h2>Soccer jersy </h2>
+       <img src="img/product/soccer/2.jpg" />
+       <p>original jersy </p>
+      </section>
+      <section class="box product">
+       <h2>Soccer net </h2>
+       <img src="img/product/soccer/3.jpg" />
+       <p>strong net </p>
+      </section>
+      <section class="box product">
+       <h2>Soccer studs </h2>
+       <img src="img/product/soccer/4.jpg" />
+       <p> short spiked shoese </p>
+      </section>
+      <section class="box product">
+       <h2>Soccer guard </h2>
+       <img src="img/product/soccer/5.jpg" />
+       <p>strong guard </p>
+      </section>
+     </div>
+    </div>
+   </main>
+
+
+
+   
+   <footer>
+    <p style="text-align: center; padding: 16px;">For questions & queries: [SportsHeaven@google.com]  [95864-65981]</br>
+
+      Thank you.</br>
+      
+      <Strong>Sports Heaven</strong></br> </p>
+    
+    <div style="text-align: center; padding: 16px;">
+      Made by Tanish ,Vishal, Yudhvir & Chirag
+    </div>
+  </footer>
+
+
+
+   <script type="text/javascript">
+    (function(d) {
+     var products = document.getElementsByClassName('product');
+     for(var i = products.length - 1;i >= 0 ; --i) {
+      products[i].onclick = function() {
+       var src = this.getElementsByTagName('img')[0].src;
+       document.location.href = 'demo.html#' +  src;
+      }
+     }
+    })(document);
+
+   </script>
+  </body>
+</html>

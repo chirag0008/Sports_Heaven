@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sports Heaven</title>
+    <link rel="shortcut icon" href="img/logo.ico" />
+    <meta charset="utf-8" />
+    
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+  </head>
+  <body>
+
+
+    <!-- HEADER SECTION SPORTS HEAVEN  -->
+   <header style="background-color: white; box-shadow: 0 1px 4px rgba(0, 0, 0, .1);">
+    <div class="container" style="padding-top: 8px;padding-bottom: 8px;">
+     <div class="grid grid-two">
+       <h1>  <a href="index.html"><img src="img/Logo.png" alt="logo" style="height: 64px ;" />  SPORTS HEAVEN</h1>
+      </div>
+     <div class="grid grid-two" style="padding-top: 24px; text-align: right;">
+  <span><a href="mycart.html">My Cart</a></span>
+     </div>
+    </div>
+   </header>
+
+
+
+   <!-- NAV BAR  -->
+   <main class="container">
+    <nav id="product-nav" class="full">
+     <li><a href="index.html">Home</a></li>
+     <li><a href="products.html">Products</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a href="contact.html">Contact</a></li>
+     <li style="float: right"><a href="login.html">Login</a></li>
+      <li style="float: right"><a href="register.html">Register</a></li>
+    </nav>
+
+
+
+
+    <!-- Products SECTION -->
+    <div class="full">
+    <div class="grid grid-two" style="padding-right: 8px;">
+     <div style="background-color: #fff;border: 1px solid #dededf;box-sizing: border-box;padding: 16px;">
+     <!-- PRODUCTS-->
+      <div class="product-line full">
+       <div class="product grid grid-two">
+      
+      <!-- CRICKET -->
+
+        <h2>Cricket</h2>
+        <img src="img/product/cricket/1.jpg" />
+        <p>Best in class cricket bat<br>
+          <strong>₹ 1000</strong>
+        </p>
+       </div>
+       <!-- a product -->
+       <div class="product grid grid-two">
+        <h2>Cricket</h2>
+        <img src="img/product/cricket/2.jpg" />
+        <p>Best in class cricket balls<br>
+          <strong>₹ 1000</strong>
+        </p>
+       </div>
+       <!-- a product -->
+      </div>
+      <!-- end a product line -->
+
+     
+      <!-- SOCCER -->
+
+     <!-- start a product line -->
+      <div class="product-line full">
+       <div class="product grid grid-two">
+        <h2>Soccer</h2>
+        <img src="img/product/soccer/1.jpg" />
+        <p>Premium quality ball<br>
+          <strong>₹ 1000</strong>
+        </p>
+       </div>
+       <!-- a product -->
+       <div class="product grid grid-two">
+        <h2>Soccer</h2>
+        <img src="img/product/soccer/2.jpg" />
+        <p>Premium quality soccer t-shirt<br>
+          <strong>₹ 1000</strong>
+        </p>
+       </div>
+       <!-- a product -->
+      </div>
+      <!-- end a product line -->
+
+
+      <!-- HOCKEY  -->
+ 
+     <!-- start a product line -->
+      <div class="product-line full">
+       <div class="product grid grid-two"> <h2>Hockey</h2>
+        <img src="img/product/hockey/1.jpg" />
+        <p> Strong Hockey stick<br>
+          <strong>₹ 1000</strong>
+        </p>
+       </div>
+       <!-- a product -->
+       <div class="product grid grid-two">
+        <h2>Hockey</h2>
+        <img src="img/product/hockey/2.jpg" />
+        <p> Strong Hockey Kit Bag<br>
+        <strong>₹ 1000</strong></p>
+       </div>
+       <!-- a product -->
+      </div>
+      <!-- end a product line -->
+     </div>
+
+
+
+
+    </div>
+    <div class="grid grid-two">
+
+     <div class="full">
+    
+    
+    <!-- LUDU KING AD -->
+      <!-- Featured product box -->
+     <div class="grid grid-two">
+      <div class="box">
+       <h3 class="text-blue uppr">Ads</h3>
+       <div class="product">
+        <h2> LUDO KING</h2>
+        <a href="https://play.google.com/store/apps/details?id=com.ludo.king&hl=en_IN&gl=US"><img src="img/product/sponsor/Ludo.jpg" /></a>
+        <p>Play Ludo like a King</p>
+       </div>
+      </div>
+     </div>
+     <!-- Featured product box -->
+
+
+     <!-- FACEBOOK AD -->
+     
+
+     <!-- new product box -->
+     <div class="grid grid-two">
+      <div class="box">
+       <h3 class="text-blue uppr">Ads</h3>
+       <div class="product">
+        <h2>YOUTUBE</h2>
+        <a href="https://www.youtube.com/"><img src="img/product/sponsor/youtube.jpg" /></a>
+        <p>Find viewer inside you</p>
+       </div>
+      </div>
+     </div>
+     <!-- finish new product box -->
+     </div>
+     
+
+   </main>
+   <footer>
+    <p style="text-align: center; padding: 16px;">For questions & queries: [SportsHeaven@google.com]  [95864-65981]</br>
+
+      Thank you.</br>
+      
+      <Strong>Sports Heaven</strong></br> </p>
+    
+    <div style="text-align: center; padding: 16px;">
+      Made by Tanish ,Vishal, Yudhvir & Chirag
+    </div>
+  </footer>
+
+
+
+   <script type="text/javascript">
+    (function(d) {
+     var products = document.getElementsByClassName('product');
+     for(var i = products.length - 1;i >= 0 ; --i) {
+      products[i].onclick = function() {
+       var src = this.getElementsByTagName('img')[0].src;
+       document.location.href = 'demo.html#' +  src;
+      }
+     }
+    })(document);
+
+   </script>
+  </body>
+</html>
